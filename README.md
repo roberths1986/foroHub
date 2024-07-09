@@ -1,10 +1,10 @@
-🌟 #ForoHub
+# ForoHub 🌟
 
 ⚠️ **Nota: Este proyecto aún está en construcción. Faltan por desarrollar los endpoints para usuarios y respuestas.**
 
-##Bienvenido a ForoHub, una aplicación de foro en línea construida con Spring Boot. ForoHub permite a los usuarios registrarse, iniciar sesión, crear y responder a temas de discusión.
+## Bienvenido a ForoHub, una aplicación de foro en línea construida con Spring Boot. ForoHub permite a los usuarios registrarse, iniciar sesión, crear y responder a temas de discusión.
 
-📋 ##Tabla de Contenidos 
+## Tabla de Contenidos 📋
 - Introducción 
 - Características 
 - Instalación 
@@ -14,11 +14,11 @@
 - Contribuciones 
 - Licencia
 
-📖 ##Introducción
+## Introducción 📖
 
 ForoHub es una plataforma de foros donde los usuarios pueden discutir diversos temas. Esta aplicación utiliza Spring Boot para proporcionar un backend.
 
-✨ ##Características
+## Características ✨
 
 - **Registro e inicio de sesión de usuarios:** Los usuarios pueden registrarse y autenticarse en la aplicación. 
 - **Gestión de temas:** Crear, leer, actualizar y eliminar (CRUD) temas de discusión. 
@@ -26,7 +26,7 @@ ForoHub es una plataforma de foros donde los usuarios pueden discutir diversos t
 - **Manejo de errores:** Mecanismo de manejo de errores centralizado para proporcionar respuestas de error claras y consistentes. 
 - **Documentación API:** Integración con SpringDoc para la generación automática de documentación de la API.
 
-🚀 ##Instalación
+## Instalación 🚀
 
 Para instalar y ejecutar ForoHub en tu entorno local, sigue estos pasos:
 
@@ -50,7 +50,7 @@ cd foroHub
 ./mvnw spring-boot:run
 ```
 
-🛠️ ##Configuración
+## Configuración 🛠️
 
 ForoHub utiliza un archivo de configuración **application.properties** para gestionar la configuración de la aplicación. Puedes encontrar este archivo en el directorio **src/main/resources.**
 
@@ -64,7 +64,7 @@ spring.jpa.show-sql=true
 jwt.secret=tu-secreto-jwt
 ```
 
-📌 ###Uso
+## Uso 📌
 
 Una vez que la aplicación esté en funcionamiento, puedes acceder a la API a través de las siguientes rutas principales:
 
@@ -82,7 +82,7 @@ Una vez que la aplicación esté en funcionamiento, puedes acceder a la API a tr
 
   Para ver la documentación completa de la API, visita **http://localhost:8080/swagger-ui.html** una vez que la aplicación esté en funcionamiento.
 
-🏗️ ##Arquitectura
+## Arquitectura 🏗️
 
 ForoHub está organizado en los siguientes módulos principales:
 
@@ -92,7 +92,7 @@ ForoHub está organizado en los siguientes módulos principales:
 - **Seguridad:** Gestiona la autenticación y autorización mediante JWT.
 - **Configuración:** Configuración de Spring y otras bibliotecas.
 
-📂 ##Estructura del Proyecto
+## Estructura del Proyecto 📂
 ```
 foroHub
 ├── src
@@ -122,7 +122,7 @@ foroHub
 └── README.md
 ```
 
-🤝 ##Contribuciones
+## Contribuciones 🤝
 
 ¡Las contribuciones son bienvenidas! Si deseas contribuir a ForoHub, sigue estos pasos:
 
@@ -133,23 +133,23 @@ foroHub
 5. Abre una Pull Request.
 
 
-🛠️ ##Tecnologías
+## Tecnologías 🛠️
 
-🌟 ###Tecnologías Principales
+### Tecnologías Principales 🌟
 
 - **Spring Boot:** Framework principal para la creación de aplicaciones Java.
 - **Spring Security:** Para la implementación de la seguridad de la aplicación.
 - **Spring Data JPA:** Para la interacción con la base de datos.
 - **MySQL:** Base de datos relacional utilizada para almacenar los datos.
 
-🌐 ###Tecnologías Secundarias
+### Tecnologías Secundarias 🌐
 
 - **JWT (JSON Web Tokens):** Para la autenticación y autorización.
 - **Lombok:** Biblioteca para reducir el código Java.
 - **SpringDoc OpenAPI:** Para la generación automática de la documentación de la API.
 - **Flyway:** Para la migración de la base de datos.
 
-📦 ###Dependencias
+### Dependencias 📦
 
 Estas son algunas de las dependencias clave utilizadas en el proyecto:
 
