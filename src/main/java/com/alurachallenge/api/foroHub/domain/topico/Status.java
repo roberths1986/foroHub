@@ -1,4 +1,4 @@
-package com.alurachallenge.api.foroHub.topico;
+package com.alurachallenge.api.foroHub.domain.topico;
 
 public enum Status {
     RESUELTO,

@@ -3,6 +3,7 @@ package com.alurachallenge.api.foroHub;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
 public class ForoHubApplication {
 
